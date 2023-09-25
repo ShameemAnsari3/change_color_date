@@ -57,3 +57,17 @@ body{
     color: olive;
     cursor: pointer;
 }
+
+@keyframes sam {
+    0%   {color: red; left: -200px; top: 0px;}
+    25%  {color: yellow; left: 200px; top: 0px;}
+    50%  {color: rgb(38, 186, 255); left: -200px; top: 0px;}
+    75%  {color: rgb(171, 102, 255); left: 200px; top: 0px;}
+    100% {color: red; left: -200px; top: 0px;}
+
+}
+
+#dateTime{
+    position: relative;
+    
+}
